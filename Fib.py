@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # This is a python program to calculate the Fibonacci sequence.  Create the python code below to do this.
 def fib(n):
     if n == 0:
@@ -10,7 +9,7 @@ def fib(n):
 
 n = int(input("Enter a number: "))
 print(fib(n))
-=======
+
 def fibonacci(n):
     if n <= 0:
         return []
@@ -29,4 +28,5 @@ def fibonacci(n):
 n = int(input("Enter the number of Fibonacci numbers to generate: "))
 fib_nums = fibonacci(n)
 print(fib_nums)
->>>>>>> 2792d1276db93e22eeeb316055cb7694f856f6e5
+print(f"The first {n} Fibonacci numbers are: {fib_nums}")
+
